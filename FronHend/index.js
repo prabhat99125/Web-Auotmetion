@@ -1,11 +1,11 @@
 const puppeteer = require("puppeteer");
 const ReadHtml = require("./htmlRead");
 
-let setNo = 1300;
-let spdId = 2022003135;
+let setNo = 2441;
+let spdId = 2022002955;
 let students = 200;
-const AcademicYear = '2021-2022';
-const degree = "B.Com. Semester - 6 (August - 2022)";
+const AcademicYear = '2022-2023';
+const degree = "B.Com. Semester - 1 (December - 2022)";
 
 (async () => {
     const browser = await puppeteer.launch({
