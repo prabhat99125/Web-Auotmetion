@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const url = "mongodb+srv://itu:123@cluster0.hr20s.mongodb.net/xyz";
+const url = "............................................";
 const localdb = "mongodb://localhost:27017/SGGU"
 mongoose.connect(url)
     .then(() => {
